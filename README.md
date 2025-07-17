@@ -49,13 +49,9 @@ Este es el principal factor que limita el rendimiento de tus modelos. Con solo 3
 
 De los tres modelos con los que se ha realizado el laboratorio, el MLP muestra un balance mucho mejor entre las clases. Aunque su exactitud general es similar a MNB, no tiene una polarización tan fuerte hacia una clase. Es capaz de identificar mejor los negativos (5 correctos vs 3 de MNB y 2 de LR) pero introduce algunos falsos negativos.
 
-<div style="text-align: center;">
-  ![Matriz de Confusión](./comparacion_matrices_confusion.png)
-</div>
+<div style="text-align:center"><img src="./comparacion_matrices_confusion.png" /></div>.
 
-<div style="text-align: center;">
-  ![Comparación de Exactitud](./comparacion_exactitud_modelos.png)
-</div>
+<div style="text-align:center"><img src="./comparacion_exactitud_modelos.png" /></div>.
 
 ### 2. Predicción del Abandono Escolar
 
