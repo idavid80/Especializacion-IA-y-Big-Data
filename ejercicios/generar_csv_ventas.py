@@ -44,4 +44,4 @@ def generar_ventas_csv(nombre_archivo='ventas.csv', num_registros=100):
     print(f"Archivo '{nombre_archivo}' creado con éxito.")
 
 if __name__ == "__main__":
-    generar_ventas_csv('./soluciones/assets/ventas.csv', 100)
+    generar_ventas_csv('./assets/ventas.csv', 100)

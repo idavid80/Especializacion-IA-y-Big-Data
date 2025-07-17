@@ -103,7 +103,7 @@ if __name__ == "__main__":
     # When running 'python3 ./ejercicios/etl.py' from the root of the repository,
     # the current working directory is the repository root.
     # So, the path to ventas.csv needs to be relative to that root.
-    archivo_csv = './soluciones/assets/ventas.csv'
+    archivo_csv = './assets/ventas.csv'
 
     try:
         proceso_etl(archivo_csv)
