@@ -9,6 +9,7 @@ Este repositorio contiene algunos de los ejercicios de laboratorios que he reali
 ## Dependencias
 
 > pip install pandas
+
 > pip install selenium
 
 ## Laboratorios Big Data
