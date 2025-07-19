@@ -9,12 +9,10 @@ Este repositorio contiene algunos de los ejercicios de laboratorios que he reali
 ## Dependencias
 
 > pip install pandas
-
 > pip install selenium
-
 > pip install scikit-learn
-
 > pip install matplotlib
+> pip install nltk
 
 ## Laboratorios Big Data
 
@@ -56,3 +54,22 @@ De los tres modelos con los que se ha realizado el laboratorio, el MLP muestra u
 ### 2. Predicción del Abandono Escolar
 
 La propuesta es utilizar Machine Learning para desarrollar un modelo que prediga el riesgo de abandono escolar basado en datos históricos de los alumnos, permitiendo a las escuelas tomar medidas preventivas de manera anticipada.
+
+Los resultados de este laboratorio nos indica que con el modelo de clasificación Random Forest obtenemos una precisión general del 64.33%. Es ligeramente mejor para predecir abandono (Clase 1) en términos de precisión (0.70) y un poco mejor para identificar no abandono (Clase 0) en términos de recall (0.69).
+
+Aunque la precisión para la clase de abandono es buena, el recall de 0.60 significa que el modelo aún pasa por alto un porcentaje significativo de estudiantes que realmente abandonan. Esto podría ser crítico si el objetivo es intervenir proactivamente.
+
+Para continuar con el laboratorio, se han empleado otros modelos como:
+
+- **Grid Search**
+Mejor puntuación F1 (de validación cruzada): 0.7025
+Precisión del modelo Grid Search: 68.00%
+
+Reporte de clasificación Grid Search:
+              precision    recall  f1-score   support
+
+           0       0.62      0.74      0.68       136
+           1       0.75      0.63      0.68       164
+    accuracy                           0.68       300
+   macro avg       0.68      0.69      0.68       300
+weighted avg       0.69      0.68      0.68       300
