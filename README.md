@@ -47,9 +47,9 @@ Este es el principal factor que limita el rendimiento de tus modelos. Con solo 3
 
 De los tres modelos con los que se ha realizado el laboratorio, el MLP muestra un balance mucho mejor entre las clases. Aunque su exactitud general es similar a MNB, no tiene una polarización tan fuerte hacia una clase. Es capaz de identificar mejor los negativos (5 correctos vs 3 de MNB y 2 de LR) pero introduce algunos falsos negativos.
 
-<div style="text-align:center"><img src="./comparacion_matrices_confusion.png" /></div>.
+<div style="text-align:center"><img src="./soluciones/ia/lab1/lab1_matriz.png" /></div>
 
-<div style="text-align:center"><img src="./comparacion_exactitud_modelos.png" /></div>.
+<div style="text-align:center"><img src="./soluciones/ia/lab1/lab1_barras.png" /></div>
 
 ### 2. Predicción del Abandono Escolar
 
@@ -66,10 +66,32 @@ Mejor puntuación F1 (de validación cruzada): 0.7025
 Precisión del modelo Grid Search: 68.00%
 
 Reporte de clasificación Grid Search:
-              precision    recall  f1-score   support
 
-           0       0.62      0.74      0.68       136
-           1       0.75      0.63      0.68       164
-    accuracy                           0.68       300
-   macro avg       0.68      0.69      0.68       300
-weighted avg       0.69      0.68      0.68       300
+| Clase           | Precisión | Recall | F1-score | Soporte |
+| --------------- | --------- | ------ | -------- | ------- |
+| No abandono (0) | 0.62      | 0.74   | 0.68     | 136     |
+| Abandono (1)    | 0.75      | 0.63   | 0.68     | 164     |
+| **Accuracy**    |           |        | **0.68** | **300** |
+
+![metodo codo](./soluciones/ia/lab2/matriz.png) ![score](./soluciones/ia/lab2/caracteristicas.png)
+![metodo codo](./soluciones/ia/lab2/curva%20ROC.png)
+
+### 4. Segmentación de clientes: k-means
+
+El objetivo de la actividad es aplicar el algoritmo de clustering K-means para segmentar a los clientes según sus hábitos de compra y proponer estrategias de marketing dirigidas a cada segmento identificado.
+
+**Conclusiones Generales:**
+
+- Segmento 1 (mayores) es el más numeroso y de buen valor: ideal para retención y consolidación.
+- Segmento 2 (jóvenes) tiene el mayor ticket promedio: una excelente oportunidad para crecimiento futuro.
+- Segmento 0 representa un grupo menos comprometido, ideal para estrategias de reactivación o recuperación.
+
+| Segmento | Edad promedio | Compra promedio | Compras anuales | Nº de clientes |
+| -------- | ------------- | --------------- | --------------- | -------------- |
+| **0**    | 40.33 años    | \$153.16        | 1.55            | 12 clientes    |
+| **1**    | 61.72 años    | \$272.42        | 2.30            | 25 clientes    |
+| **2**    | 28.92 años    | \$299.64        | 2.23            | 13 clientes    |
+
+![metodo codo](./soluciones/ia/lab4/metodo_codo.png) ![score](./soluciones/ia/lab4/score.png)
+
+![metodo codo](./soluciones/ia/lab4/szegmentacion.png) ![score](./soluciones/ia/lab4/szegmentacion3d.png)
