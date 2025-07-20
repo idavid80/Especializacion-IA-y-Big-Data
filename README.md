@@ -14,6 +14,7 @@ pip install selenium
 pip install scikit-learn
 pip install matplotlib
 pip install nltk
+pip install seaborn
 ```
 
 ## Laboratorios Big Data
