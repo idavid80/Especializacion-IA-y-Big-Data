@@ -8,11 +8,14 @@ Este repositorio contiene algunos de los ejercicios de laboratorios que he reali
 
 ## Dependencias
 
-> pip install pandas
-> pip install selenium
-> pip install scikit-learn
-> pip install matplotlib
-> pip install nltk
+```bash
+pip install pandas
+pip install selenium
+pip install scikit-learn
+pip install matplotlib
+pip install nltk
+pip install seaborn
+```
 
 ## Laboratorios Big Data
 
