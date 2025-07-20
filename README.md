@@ -59,6 +59,9 @@ Los resultados de este laboratorio nos indica que con el modelo de clasificació
 
 Aunque la precisión para la clase de abandono es buena, el recall de 0.60 significa que el modelo aún pasa por alto un porcentaje significativo de estudiantes que realmente abandonan. Esto podría ser crítico si el objetivo es intervenir proactivamente.
 
+![metodo codo](./soluciones/ia/lab2/matriz.png) ![score](./soluciones/ia/lab2/caracteristicas.png)
+![metodo codo](./soluciones/ia/lab2/curva%20ROC.png)
+
 Para continuar con el laboratorio, se han empleado otros modelos como:
 
 - **Grid Search**
@@ -72,9 +75,6 @@ Reporte de clasificación Grid Search:
 | No abandono (0) | 0.62      | 0.74   | 0.68     | 136     |
 | Abandono (1)    | 0.75      | 0.63   | 0.68     | 164     |
 | **Accuracy**    |           |        | **0.68** | **300** |
-
-![metodo codo](./soluciones/ia/lab2/matriz.png) ![score](./soluciones/ia/lab2/caracteristicas.png)
-![metodo codo](./soluciones/ia/lab2/curva%20ROC.png)
 
 ### 4. Segmentación de clientes: k-means
 
